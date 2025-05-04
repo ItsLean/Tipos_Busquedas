@@ -12,8 +12,8 @@ class Program
         else
             Console.WriteLine("Elemento no encontrado");
 
-        int[] numeros = { 5, 10, 15, 20, 25, 30 };
-        int indice = BusquedaBinaria.Buscar(numeros, 20);
+        int[] numeros1 = { 5, 10, 15, 20, 25, 30 };
+        int indice1 = BusquedaBinaria.Buscar(numeros, 20);
 
         if (indice != -1)
             Console.WriteLine($"Elemento encontrado en el índice {indice}");
